@@ -1,0 +1,13 @@
+create database clean_db;
+
+use clean_db;
+
+create table students(
+	id bigint primary key auto_increment,
+    name varchar(100) not null,
+	nationality varchar(100) not null,
+    carrer varchar(100) not null,
+    password longtext not null,
+    phone varchar(25) null,
+    age int null
+)
